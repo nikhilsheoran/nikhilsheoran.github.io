@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Gloria+Hallelujah&family=Handlee&family=Indie+Flower&family=Pacifico&family=Rancho&family=Reenie+Beanie&family=Rochester&family=Sacramento&family=Shadows+Into+Light&display=swap');
+@font-face {
+    font-family: Anada;
+    src: url(fonts/Ananda\ Namaste\ Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#top-floating-btn-div a {
+    text-decoration: none;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-floating-btn-div {
+    position: absolute;
+    font-size: 2rem;
+    height: 4rem;
+    width: 4rem;
+    position: sticky;
+    top: 85%;
+    left: 92%;
+    border-radius: 50%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+#carouselExampleSlidesOnly {
+    height: 100vh;
+}
+
+.main-website-name {
+    font-size: 3rem !important;
+    font-weight: bolder;
+    color: chartreuse !important;
+    font-family: "Amatic SC";
+    text-decoration: none;
+}
+
+#input-cursor {
+    width: 0.2vw;
+    height: 14vh;
+    background-color: white;
+    position: relative;
+    top: 10%;
+}
+
+.position-absolute {
+    width: 100vw;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.cursor-bg-div {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    padding: 2vmin 4vmin;
+}
+
+.fixed-text-main-div {
+    color: whitesmoke;
+}
+
+#change-font {
+    max-width: 100%;
+}
+
+.my-works-card-holder-div {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    align-items: center;
+}
+
+.card {
+    margin: 4%;
+}
+
+.about-me-accordion-div {
+    padding: 0 3vw;
+    overflow: hidden;
+    min-height: 60vh;
+}
+
+.about-me-accordion-heading {
+    margin-bottom: 8vh;
+}
