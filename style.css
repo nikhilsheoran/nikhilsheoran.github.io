@@ -1,0 +1,163 @@
+@media screen and (min-width: 780px) {
+    @keyframes cursor-blinking {
+        0% {
+            opacity: 0%;
+        }
+        100% {
+            opacity: 100%;
+        }
+    }
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    #cursor-div {
+        display: inline-block;
+        position: relative;
+        top: 1vmin;
+        height: 9vmin;
+        width: 4px;
+        background-color: green;
+        animation: cursor-blinking 0.6s linear infinite alternate;
+    }
+    #hero-h1 {
+        font-size: 9vmin;
+    }
+    #hero-bg-div {
+        height: 80vh;
+        background-image: url("hero-bg-img.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .col {
+        height: 70vh;
+    }
+    #onlineclass-div {
+        background-image: url("onlineclass.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: center;
+        background-position-y: center;
+    }
+    #countriesinfo-div {
+        background-image: url("countriesinfo.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: center;
+        background-position-y: center;
+    }
+    .bg-slight-dark {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    #contact {
+        height: 100vh;
+        width: 100vw;
+    }
+    #contact-bg-div {
+        height: 80vh;
+        background-image: url("contact-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: center;
+        background-attachment: fixed;
+    }
+    footer {
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    @keyframes cursor-blinking {
+        0% {
+            opacity: 0%;
+        }
+        100% {
+            opacity: 100%;
+        }
+    }
+    * {
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    body {}
+    nav {
+        text-align: center;
+    }
+    .hide-br {
+        display: none;
+    }
+    #cursor-div {
+        display: inline-block;
+        position: relative;
+        top: 0.5vmin;
+        height: 5vmin;
+        width: 2px;
+        background-color: green;
+        animation: cursor-blinking 0.6s linear infinite alternate;
+    }
+    #hero-h1 {
+        font-size: 5vmin;
+    }
+    #hero-bg-div {
+        height: 90vh;
+        background-image: url("hero-bg-img.jpg");
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+        background-attachment: fixed;
+        background-position-x: 78%;
+        background-position-y: center;
+    }
+    #small-text-em {
+        font-size: 3vmin;
+    }
+    .b-example-divider {
+        display: none;
+    }
+    .col-cards {
+        height: 40vh;
+    }
+    .col {
+        margin: 2vh 0;
+    }
+    #custom-cards {
+        padding: 0 !important;
+    }
+    #onlineclass-div {
+        background-image: url("onlineclass.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: center;
+        background-position-y: center;
+    }
+    #countriesinfo-div {
+        background-image: url("countriesinfo.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: center;
+        background-position-y: center;
+    }
+    .bg-slight-dark {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    #contact {
+        height: 100vh;
+        width: 100vw;
+    }
+    #contact-bg-div {
+        height: 100vh;
+        background-image: url("contact-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        background-attachment: fixed;
+    }
+    footer {
+        box-sizing: border-box;
+    }
+}
